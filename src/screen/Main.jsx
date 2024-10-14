@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import Footer from "../component/Footer";
 
 // export const serverRoute = "http://localhost:8080";
-export const serverRoute = "https://server-k8j6.onrender.com";
+export const serverRoute = "https://server-ld5k.onrender.com";
 export const socket = io(serverRoute);
 const Main = () => {
   return (
